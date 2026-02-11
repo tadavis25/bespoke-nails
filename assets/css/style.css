@@ -1,0 +1,21 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* CSS Variables */
+
+/* Global Styles */
+
+.philosopher-regular-italic {
+  font-family: "Philosopher", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+body {
+    font-family: "Philosopher" sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+h1 {
+    font-family: "Dancing Script", cursive;
+}
