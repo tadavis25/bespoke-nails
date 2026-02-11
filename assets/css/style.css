@@ -3,19 +3,31 @@
 
 /* CSS Variables */
 
+:root {
+    --primary-font: "Dancing Script", cursive;
+    --secondary-font: "Philosopher", sans-serif;
+    --primary-color: #b8917a;
+}
+
 /* Global Styles */
 
-.philosopher-regular-italic {
-  font-family: "Philosopher", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+body {
+    font-family: var(--secondary-font);
 }
 
-body {
-    font-family: "Philosopher" sans-serif;
-    font-style: italic;
-    font-weight: 400;
+h1, h2, h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
 }
-h1 {
-    font-family: "Dancing Script", cursive;
+
+/* grid visualisation CSS for testing */
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
 }
