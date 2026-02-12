@@ -6,19 +6,24 @@
 :root {
     --primary-font: "Dancing Script", cursive;
     --secondary-font: "Philosopher", sans-serif;
-    --primary-color: #c97999; /* light pink */
+    --primary-color: #613705; /* brown */
 }
 
 /* Global Styles */
 
 body {
     font-family: var(--secondary-font);
+    background-color: #fbcbdd /* light pink */
 }
 
 h1, h2, h3 {
     font-family: var(--primary-font);
     color: var(--primary-color);
     text-align: center;
+}
+
+p { 
+font-family: var(--secondary-font);
 }
  /* Navbar styles */
 
@@ -36,4 +41,13 @@ h1, h2, h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+ }
+
+ .homepage-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    
  }
