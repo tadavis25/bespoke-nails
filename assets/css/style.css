@@ -6,7 +6,7 @@
 :root {
     --primary-font: "Dancing Script", cursive;
     --secondary-font: "Philosopher", sans-serif;
-    --primary-color: #b8917a;
+    --primary-color: #c97999; /* light pink */
 }
 
 /* Global Styles */
@@ -19,6 +19,14 @@ h1, h2, h3 {
     font-family: var(--primary-font);
     color: var(--primary-color);
 }
+ /* Navbar styles */
 
+ #navbar {
+    background-color: var(--primary-color);
+ }
+
+ #navbar .logo {
+    width: 40px;
+ }
 /* grid visualisation CSS for testing */
 
