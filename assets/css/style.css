@@ -16,14 +16,26 @@ body {
     background-color: #fbcbdd /* light pink */
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: var(--primary-font);
     color: var(--primary-color);
     text-align: center;
+    
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-family: var(--secondary-font);
+    color: var(--primary-color);
 }
 
 p { 
-font-family: var(--secondary-font);
+   font-family: var(--secondary-font);
+   color: var(--primary-color);
+
 }
  /* Navbar styles */
 
@@ -43,6 +55,7 @@ font-family: var(--secondary-font);
     align-items: center;
  }
 
+
  .homepage-image {
     width: 100%;
     max-width: 600px;
@@ -51,3 +64,23 @@ font-family: var(--secondary-font);
     margin: 20px auto;
     
  }
+
+ /* Footer styles */
+
+ footer address {
+    color:#613705;
+ }
+
+
+ .social-links {
+    display: flex;
+    justify-content: left; 
+    gap: 40px;
+
+ }
+
+.social-links i {
+    font-size: 20px;
+    color:#613705
+}
+
