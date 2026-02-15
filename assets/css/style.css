@@ -76,7 +76,11 @@ p {
    color: var(--primary-color);
  }
 
- /* Footer/contact */
+#services .card {
+   margin-bottom: 1.5rem;
+}
+ 
+/* Footer/contact */
 
  footer address {
     color: var(--secondary-color);
@@ -108,5 +112,15 @@ p {
 
 #contact .social-links i:hover {
     color: white;
+}
+
+/* Media queries */
+
+/* Medium devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) {
+    /* Make all service cards the same height for consistency */
+   #services .card {
+      min-height: 180px;
+   }
 }
 
