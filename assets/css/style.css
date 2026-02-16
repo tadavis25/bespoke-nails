@@ -79,6 +79,13 @@ p {
 #services .card {
    margin-bottom: 1.5rem;
 }
+
+li {
+   color: var(--primary-color);
+   font-size: 20px;
+   font-family: var(--secondary-font);
+   margin-bottom: 1.5rem;
+}
  
 /* Footer/contact */
 
