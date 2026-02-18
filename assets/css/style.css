@@ -48,7 +48,7 @@ p {
  }
 
  #navbar .logo {
-    width: 40px;
+    width: 50px;
  }
 
 
@@ -86,6 +86,25 @@ li {
    font-family: var(--secondary-font);
    margin-bottom: 1.5rem;
 }
+
+/* Gallery */
+
+#photos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0; 
+}
+
+#photos img {
+  width: 100%;
+  height: 250px;      
+  object-fit: cover;  
+  display: block;     
+}
+
+
+
+
  
 /* Footer/contact */
 
@@ -123,11 +142,32 @@ li {
 
 /* Media queries */
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+  
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
     /* Make all service cards the same height for consistency */
    #services .card {
       min-height: 180px;
    }
+}
+
+
+/* large devices (laptops and desktops, 992px and up) */
+  @media screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+
+}
+
+/* Extra extra large devices (large desktops, 1400px and up) */
+@media screen and (min-width: 1400px) {
+
 }
 
