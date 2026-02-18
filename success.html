@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Come explore our services.">
-    <title>Bespoke Nails | Booking Inguiry</title>
+    <meta name="description" content="Thank you for booking your appointment with Bespoke Nails.">
+    <title>Bespoke Nails | Thank You</title>
 
     <!--Favicons generated from favicon.io-->
 <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
@@ -17,9 +17,8 @@
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
-    
-    
-</head>
+
+    </head>
 
 <body class="d-flex flex-column min-vh-100">
  <!--Navigation-->
@@ -37,104 +36,40 @@
           <a class="nav-link" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  href="services.html">Services</a>
+          <a class="nav-link" href="index.html#services">Services</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Gallery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="index.html#contact">Contact</a>
         </li>
         <li class="nav-item">
-            <a href="booking.html" class="btn btn-primary ms-lg-3" aria-current="page">Book now</a>
-    </li>
+            <a class="btn custom-button-filled ms-3" href="booking.html">Book now</a>
+         </li>
       </ul>
     </div>
   </div>
 </nav>
-  
-<main>
-<!-- header section -->
-<header id="header" class="container section">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-8 text-center text-xl-start">
-            <h1 class="display-3">Bespoke Nails</h1>
-            <p class="my-4">
-                Thank you for choosing to book an appointment with Bespoke Nails! Please
-                fill out the form below with your details and perferred service. A
-                member of our team will call you back as soon as possible to confirm
-                your booking and answer any questions you may have.
-            </p>
-        </div>
-    </div>
-</header>
 
-<main>
-    <!-- Booking inquiry form section -->
-    <section id="booking-form" class="container section">
+<!-- success message for users who successfully submit a form -->
+    <main id="success" class="container section text-center">
         <div class="row justify-content-center">
             <div class="col-12 col-md-8">
-                <h2>BOOKING INQUIRY</h2>
-                <form action="success.html" method="GET">
-                    <div class="row">
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="name" class="form-label">Name</label>
-                            <input class="form-control" id="name" name="name" autocomplete="name" type="text" required>
-                            
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="email" class="form-label">Email</label>
-                            <input class="form-control" id="email" name="email" autocomplete="email" type="email" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="phone" class="form-label">Phone number</label>
-                            <input class="form-control" id="phone" name="phone" autocomplete="phone" type="number" required>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="appointment-type" class="form-label">Appointment type</label>
-                            <select id="appointment-type" class="form-select" name="appointment" required>
-                                <option value="" selected>Select</option>
-                                <option value="acrylic">Acrylic Full Set from £55</option>
-                                <option value="biab">BIAB Builder Gel Full Set from £50</option>
-                                <option value="gel-polish">Gel Polish Set from £25</option>
-                                <option value="infills">Infills from £50</option>
-                                <option value="bespoke-design">Bespoke Design with any full set £25 plus</option>
-                            </select>
-                            <!-- Add-ons (hidden initially) -->
-                            <div id="addons-section" style="display: none;">
-                                <h3>Add-Ons</h3>
-                                <label>
-                                    <input type="checkbox" name="addons" value="nail-art">
-                                    Nail Art (from £5)
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-6 mb-3">
-                            <label for="appointment-datetime">Select Date & Time:</label>
-                            <input type="datetime-local" id="appointment-datetime" name="appointment-datetime" required>
-                        </div>
-                        <div class="col-12 mb-3">
-                            <label for="message" class="form-label">Message</label>
-                            <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
-                        </div>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                <h1 class="display-3">Thank you!</h1>
+                <p class="lead">Your form has been submitted successfully!</p>
+                <a href="index.html" class="btn btn-primary mb-5">Return to the home page</a>
             </div>
         </div>
-    </section>
-</main>
+    </main>
 
-    
-
-<!-- Footer / contact section -->
+    <!-- Footer / contact section -->
   <!-- mt-auto added to push footer to the bottom of the page -->
       <footer id="contact" class="mt-auto social-links">
         <div class="container section">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
-                  <h3 class="display-6">Contact Us!</h3>
+                  <h2 class="display-6">Contact Us!</h2>
                 </div>
                 <!-- Contact info -->
                 <div class="col-12 col-md-6 col-xl-4">
@@ -147,6 +82,7 @@
                   <p><i class="fa-solid fa-square-phone"></i>012 342 5055<br>
                     <i class="fa-solid fa-paper-plane"></i>info@bespoke.com
                   </p>
+              
                 </section>
 
                   <div class="social-links my-4">
@@ -163,7 +99,7 @@
             
               <!-- Opening times -->
                 <div class="col-12 col-md-6 col-xl-4">
-                    <h3 class="sub-heading-color">Opening times</h3>
+                    <h3>Opening times</h3>
                     <table class="table table-danger">
                         <thead>
                             <tr>
@@ -195,12 +131,18 @@
         </div>
     </footer>
 
- <!-- Bootstrap JS -->
+<!-- Font Awesome kit -->
+       <script src="https://kit.fontawesome.com/6be7d05174.js" crossorigin="anonymous"></script>  
+  <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+       
 
-      <!-- Font Awesome kit -->
-       <script src="https://kit.fontawesome.com/6be7d05174.js" crossorigin="anonymous"></script>   
-
+     
 </body>
 </html>
+   
+
+
+
