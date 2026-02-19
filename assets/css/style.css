@@ -140,6 +140,11 @@ li {
     color: white;
 }
 
+.copyright {
+    text-align: center;
+
+}   
+
 /* Media queries */
 
 /* Media query: large or landscape phones (576px and up) */
