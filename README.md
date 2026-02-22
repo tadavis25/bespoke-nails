@@ -30,7 +30,6 @@ I created my wireframes at the beginning of my project, to plan the layout and s
 
 Wireframe screenshots
 
-<img width="201" height="779" alt="Screenshot 2026-02-09 175356" src="https://github.com/user-attachments/assets/2c31dcc7-0903-44e1-9950-da4a816952f9"/>
 
 Technologies Used
     
@@ -55,6 +54,7 @@ Technologies Used
 
 
   
+
 
 
 
