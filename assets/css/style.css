@@ -45,12 +45,20 @@ p {
 
  #navbar {
     background-color: var(--secondary-color);
+    
  }
 
  #navbar .logo {
-    width: 50px;
+    width: 54px;
  }
 
+ .navbar-nav .nav-link {
+    color: var(--primary-color);
+
+ }
+.navbar-nav .nav-link:hover {
+    color: white
+ }
 
  /* Header styles */
 
