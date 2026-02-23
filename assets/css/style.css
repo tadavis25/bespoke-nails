@@ -46,6 +46,12 @@ p {
    margin-top: 50px;
 }
 
+p.about-text {
+   margin-left: 20px;
+   margin-right: 30px;
+   
+}
+
  /* Navbar styles */
 
  #navbar {
