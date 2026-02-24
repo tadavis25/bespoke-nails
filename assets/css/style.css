@@ -100,6 +100,7 @@ p.about-text {
    color: var(--primary-color);
  }
 
+
 .service .card {
    margin-bottom: 1.5rem;
 }
@@ -132,7 +133,8 @@ li {
 }
 
 button[type="submit"] {
-    margin-bottom: 40px
+    margin-bottom: 40px;
+   
 }
 
 /* Footer/contact */
