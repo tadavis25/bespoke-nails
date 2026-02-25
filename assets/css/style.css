@@ -111,6 +111,7 @@ p.about-text {
    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
 }
 
+
 li {
    color: var(--primary-color);
    font-size: 20px;
@@ -131,6 +132,11 @@ li {
   height: 250px;      
   object-fit: cover;  
   display: block;     
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
 }
 
 button[type="submit"] {
