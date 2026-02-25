@@ -42,8 +42,8 @@ p {
 
 }
 
-.addons-title {
-   margin-top: 50px;
+.add-ons {
+   margin-top: 40px;
 }
 
 p.about-text {
@@ -101,13 +101,14 @@ p.about-text {
  }
 
 
-.service .card {
+.services .card {
    margin-bottom: 1.5rem;
 }
 
-.service-card:hover {
+.services .card:hover {
    transform: translateY(-5px);
-   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+   transition: 0.3s ease;
+   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.2);
 }
 
 li {
