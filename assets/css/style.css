@@ -100,9 +100,17 @@ p.about-text {
    color: var(--primary-color);
  }
 
+ .services {
+   display: flex;
+   gap: 20px;
+   flex-wrap: nowrap; /* Prevent wrapping on smaller screens */
+
+ }
+
 
 .services .card {
    margin-bottom: 1.5rem;
+   flex: 1;
 }
 
 .services .card:hover {
