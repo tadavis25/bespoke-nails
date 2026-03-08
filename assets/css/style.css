@@ -61,7 +61,18 @@ p.about-text {
 
  #navbar .logo {
     width: 50px;
+    height: auto;
+
  }
+
+ .navbar-brand img {
+      width: 100%;
+      height: auto;
+}
+
+.navbar-brand {
+    padding: 0;
+}
 
  .navbar-nav .nav-link {
     color: var(--primary-color);
