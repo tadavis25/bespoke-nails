@@ -60,9 +60,8 @@
             <h1 class="display-3">Bespoke Nails</h1>
             <p class="my-4">
                 Thank you for choosing to book an appointment with Bespoke Nails! Please
-                fill out the form below with your details and perferred service. I
-                will call you back as soon as possible to confirm
-                booking and answer any questions if any.
+                fill out the form below. We will call you back as soon as possible to confirm
+                booking.
             </p>
         </div>
     </div>
@@ -99,16 +98,40 @@
                                 <option value="infills">Infills from £50</option>
                                 <option value="bespoke-design">Bespoke Design with any full set plus £25</option>
                             </select>
-                            <!-- Add-ons (hidden initially) -->
-                            <div id="addons-section" style="display: none;">
-                                <h3>Add-Ons</h3>
-                                <label>
-                                    <input type="checkbox" name="addons" value="nail-art">
-                                    Nail Art (from £5)
-                                </label>
+                            <!-- Add-ons -->
+                            <div class="mb-3">
+                                <label class="form-label">Add-ons (optional)</label>
+                            
+                                    <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="nail-art" id="nailArt" name="addons">
+                            <label class="form-check-label" for="nailArt">Nail Art from £5</label>
                             </div>
+                            
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="rhinestones-gems" id="rhinestonesGems" name="addons">
+                                <label class="form-check-label" for="rhinestonesGems">Rhinestones & Gems from £10</label>
+                            </div>
+                            
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="chrome-finish" id="chromeFinish" name="addons">
+                                <label class="form-check-label" for="chromeFinish">Chrome Finish from £5</label>
+                            </div>
+                            
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="glitter-accent" id="glitterAccent" name="addons">
+                                <label class="form-check-label" for="glitterAccent">Glitter Accent from £5</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="add-on-length" id="addOnLength" name="addons">
+                                <label class="form-check-label" for="addOnLength">Add-on Length (tips or extensions) from £5</label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="bespoke-design" id="bespokeDesign" name="addons">
+                                <label class="form-check-label" for="bespokeDesign">Bespoke Design from £25</label>
+                            </div>
+                          </div>
                         </div>
-                        <div class="col-12 col-lg-6 mb-3">
+                    <div class="col-12 col-lg-6 mb-3">
                             <label for="appointment-datetime">Select Date & Time:</label>
                             <input type="datetime-local" id="appointment-datetime" name="appointment-datetime" required>
                         </div>
@@ -117,6 +140,7 @@
                             <textarea class="form-control" rows="6" id="message" name="message" required></textarea>
                         </div>
                     </div>
+                    </label>
     
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
